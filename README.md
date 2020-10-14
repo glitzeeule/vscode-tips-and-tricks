@@ -1,7 +1,7 @@
 # [VS Code](https://code.visualstudio.com) Tips and Tricks
 
->**Note**: Tips and Tricks has moved to the official Visual Studio Code documentation at [code.visualstudio.com](https://code.visualstudio.com/docs/getstarted/tips-and-tricks).<BR> 
->The content is now at [vscode-docs](https://github.com/Microsoft/vscode-docs/blob/master/docs/getstarted/tips-and-tricks.md). Pull requests and documentation issues are still greatly appreciated. 
+>**Note**: Tips and Tricks has moved to the official Visual Studio Code documentation at [code.visualstudio.com](https://code.visualstudio.com/docs/getstarted/tips-and-tricks).<BR>
+>The content is now at [vscode-docs](https://github.com/Microsoft/vscode-docs/blob/master/docs/getstarted/tips-and-tricks.md). Pull requests and documentation issues are still greatly appreciated.
 
 # Table of Contents
 
@@ -184,6 +184,7 @@ Are you used to keyboard shortcuts from another editor? You can install a Keymap
 - [Sublime Text Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings)
 - [Emacs Keymap](https://marketplace.visualstudio.com/items?itemName=hiro-sun.vscode-emacs)
 - [Atom Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.atom-keybindings)
+- [Eclipse Keymap](https://marketplace.visualstudio.com/items?itemName=alphabotsec.vscode-eclipse-keybindings)
 
 ### Customize your keyboard shortcuts
 
@@ -199,7 +200,7 @@ Open `settings.json`
 
 > Mac: <kbd>cmd+,</kbd>
 
-> Windows / Linux: **File** > **Preferences** > **Settings**
+> Windows / Linux: **File** > **Preferences** > **Settings** or <kbd>ctrl+,</kbd>
 
 *Format on paste*
 
@@ -355,7 +356,7 @@ See more in the [documentation](https://code.visualstudio.com/docs/languages/jso
 1. In the VS Code [Marketplace](https://marketplace.visualstudio.com/vscode).
 2. Search inside VS Code
 3. View extension recommendations
-4. Community curated extension lists, such as [awesome-vscode](https://github.com/viatsko/awesome-vscode).
+4. Community curated extension lists, such as [awesome-vscode](https://github.com/viatsko/awesome-vscode)
 
 ## Install extensions
 
@@ -371,7 +372,7 @@ Click the Extensions Activity Bar button. Then click **Show Recommended Extensio
 
 ## Creating my own extension
 
-Are you interested in creating your own extension? You can learn how to do this in the documentation, specifically check out the [documentation on contribution points](https://code.visualstudio.com/docs/extensionAPI/extension-points).
+Are you interested in creating your own extension? You can learn how to do this in the documentation, specifically check out the [documentation on contribution points](https://code.visualstudio.com/docs/extensionAPI/extension-points). A simple "Hello, world" tutorial can be found [here](https://code.visualstudio.com/docs/extensions/example-hello-world).
 
 * configuration
 * commands
@@ -804,7 +805,7 @@ If you prefer the inline view, you can set `"diffEditor.renderSideBySide": false
 
 **Review Pane**
 
-Navigate through diffs with `F7` and `Shift+F7`. This will present them in a unified patch format. 
+Navigate through diffs with `F7` and `Shift+F7`. This will present them in a unified patch format.
 Lines can be navigated with arrow keys and pressing `Enter` will jump back in the diff editor and the selected line.
 
 ![diff_review_pane](/media/diff_review_pane.png)
@@ -867,6 +868,9 @@ During a merge, click the Source Control button in the Activity Bar and make cha
 ```bash
 git config --global merge.tool code
 ```
+## Pull request extension
+
+Review pull requests inside vscode [vscode-pull-request-github](https://github.com/Microsoft/vscode-pull-request-github)
 
 # Debugging
 
@@ -897,7 +901,7 @@ You can set `"debug.inlineValues": true` to see variable values inline in the de
 ## Auto detect tasks
 
 Select **Tasks** from the top-level menu, run the command **Configure Tasks...**, then select the type of task you'd like to run.
-This will generate a `task.json` file with content like the following. See the Tasks [documentation](https://go.microsoft.com/fwlink/?LinkId=733558) for more details.
+This will generate a `tasks.json` file with content like the following. See the Tasks [documentation](https://go.microsoft.com/fwlink/?LinkId=733558) for more details.
 
 ```json
 {
@@ -935,3 +939,4 @@ Select **Tasks** from the top-level menu, run the command **Run Task...**, and s
 * [vscode official docs](https://code.visualstudio.com/docs)
 * [react sample app](https://github.com/Microsoft/vscode-react-sample)
 * [awesome vscode](https://github.com/viatsko/awesome-vscode)
+* [vscode can do that](https://vscodecandothat.com/) 
